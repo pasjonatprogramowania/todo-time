@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TaskTime</string>
+    <string name="accessibility_service_description">TaskTime needs this service to monitor which application is currently in the foreground. This allows TaskTime to block selected distracting apps and websites, and to manage your earned screen time effectively. We do not collect any personal data or track your activity outside the context of blocking specified distractors.</string>
+</resources>

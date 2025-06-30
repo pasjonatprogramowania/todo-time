@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeWindowStateChanged"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagIncludeNotImportantViews|flagReportViewIds|flagRequestFilterKeyEvents"
+    android:canRetrieveWindowContent="true"
+    android:description="@string/accessibility_service_description"
+    android:notificationTimeout="100"
+    android:settingsActivity="com.tasktime.app.MainActivity"
+    />
+<!--
+    android:packageNames="com.example.app1, com.example.app2"
+    canRequestFilterKeyEvents for API 21+ (LOLLIPOP), included in flags
+    canPerformGestures for API 24+ (NOUGAT)
+    canRequestTouchExplorationMode for API 18+ (JELLY_BEAN_MR2)
+    android:htmlDescription="@string/accessibility_service_html_description" for API 29+ (Q)
+ -->
